@@ -33,8 +33,7 @@ PowerShell · Git
 
 ### Contact
 
-<!-- Add the LinkedIn URL and a professional e-mail before publishing. -->
-LinkedIn: _to be added_ · E-mail: _to be added_
+[LinkedIn](https://www.linkedin.com/in/gustavo-d-silveira-72b9b9218/) · [scylla.datalab@outlook.com](mailto:scylla.datalab@outlook.com)
 
 ---
 
