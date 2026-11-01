@@ -1,0 +1,43 @@
+## Gustavo Silveira · Senior Data & BI Analyst
+
+I turn operational data into numbers people agree on. I clarify the business rules first, write them into SQL
+Server once, check them against independent queries, and deliver them in Power BI dashboards or a Python web
+app. I have worked in telecom operations reporting since 2018. Based in Pamplona, Spain; remote work welcome.
+
+**Scylla Data Lab** is the name I use for my portfolio and freelance work.
+
+### What I can help with
+
+| Need | How I usually solve it | Shown in |
+|---|---|---|
+| Dashboards that answer a management question | Power BI on a star schema, measures that stay correct under any filter | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence) |
+| Reports everyone trusts | Rules in SQL views and procedures, data quality checks, validation against the source | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence) |
+| A small internal web app on company data | Streamlit with login, the same SQL rules as the dashboards | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence/tree/main/app) |
+| Manual Excel reporting that takes hours | Python and SQL automation, scheduled refresh | — |
+
+### Featured project
+
+**[B2B Network Operations Intelligence](https://github.com/scylladl/telecom-operations-intelligence)** (simulated client and data):
+incident volume, SLA, repeat failures, backlog and the real effect of improvement actions for a fictional
+Spanish telecom operator. SQL Server processing with logging and data quality checks, a Power BI report in three
+designs, and a Streamlit app with login. Every main KPI matches independent SQL: 21 of 21.
+
+![Overview of the Power BI report](https://raw.githubusercontent.com/scylladl/telecom-operations-intelligence/main/docs/screenshots/01-overview.png)
+
+**Next:** an operations portal (Streamlit) and a sales analytics report (Power BI).
+
+### Tools
+
+SQL Server (T-SQL, stored procedures, views) · Power BI (DAX, Power Query, PBIP) · Python (pandas, Streamlit) ·
+PowerShell · Git
+
+### Contact
+
+<!-- Add the LinkedIn URL and a professional e-mail before publishing. -->
+LinkedIn: _to be added_ · E-mail: _to be added_
+
+---
+
+**En español.** Analista Sénior de Datos y BI. Defino las reglas de negocio con el cliente, las implemento una vez
+en SQL Server, las valido contra la fuente y las entrego en Power BI o en una aplicación web con Python. Trabajo
+en reporting de operaciones de telecomunicaciones desde 2018. Pamplona, España; disponible en remoto.
