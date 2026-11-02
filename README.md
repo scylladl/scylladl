@@ -10,12 +10,13 @@ app. I have worked in telecom operations reporting since 2018. Based in Pamplona
 
 | Need | How I usually solve it | Shown in |
 |---|---|---|
-| Dashboards that answer a management question | Power BI on a star schema, measures that stay correct under any filter | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence) |
-| Reports everyone trusts | Rules in SQL views and procedures, data quality checks, validation against the source | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence) |
+| Dashboards that answer a management question | Power BI on a star schema, measures that stay correct under any filter | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence), [Sales & revenue](https://github.com/scylladl/sales-revenue-analytics) |
+| Reports everyone trusts | Rules in SQL views and procedures, data quality checks, validation against the source | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence), [Sales & revenue](https://github.com/scylladl/sales-revenue-analytics) |
+| Actual versus budget, and why the margin moved | Budget prepared from the finance Excel in Power Query, margin bridge, incremental SQL load | [Sales & revenue](https://github.com/scylladl/sales-revenue-analytics) |
 | A small internal web app on company data | Streamlit with login, the same SQL rules as the dashboards | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence/tree/main/app) |
 | Manual Excel reporting that takes hours | Python and SQL automation, scheduled refresh | — |
 
-### Featured project
+### Featured projects
 
 **[B2B Network Operations Intelligence](https://github.com/scylladl/telecom-operations-intelligence)** (simulated client and data):
 incident volume, SLA, repeat failures, backlog and the real effect of improvement actions for a fictional
@@ -24,7 +25,14 @@ designs, and a Streamlit app with login. Every main KPI matches independent SQL:
 
 ![Overview of the Power BI report](https://raw.githubusercontent.com/scylladl/telecom-operations-intelligence/main/docs/screenshots/01-overview.png)
 
-**Next:** an operations portal (Streamlit) and a sales analytics report (Power BI).
+**[Sales & Revenue Analytics](https://github.com/scylladl/sales-revenue-analytics)** (simulated company and data):
+sales, margin and budget for a fictional Spanish coffee roaster with three channels. Incremental SQL Server load
+that a test proves equal to a full reload, the budget prepared from an Excel workbook in Power Query, a margin
+bridge, and a Power BI report in a light and a dark design. Every main KPI matches independent SQL: 231 of 231.
+
+![Overview of the sales report](https://raw.githubusercontent.com/scylladl/sales-revenue-analytics/main/docs/screenshots/01-overview.png)
+
+**Next:** an operations portal (Streamlit).
 
 ### Tools
 
