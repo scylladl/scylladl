@@ -13,7 +13,8 @@ app. I have worked in telecom operations reporting since 2018. Based in Pamplona
 | Dashboards that answer a management question | Power BI on a star schema, measures that stay correct under any filter | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence), [Sales & revenue](https://github.com/scylladl/sales-revenue-analytics) |
 | Reports everyone trusts | Rules in SQL views and procedures, data quality checks, validation against the source | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence), [Sales & revenue](https://github.com/scylladl/sales-revenue-analytics) |
 | Actual versus budget, and why the margin moved | Budget prepared from the finance Excel in Power Query, margin bridge, incremental SQL load | [Sales & revenue](https://github.com/scylladl/sales-revenue-analytics) |
-| A small internal web app on company data | Streamlit with login, the same SQL rules as the dashboards | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence/tree/main/app) |
+| A small internal web app on company data | Streamlit with login, the same SQL rules as the dashboards | [Telecom operations](https://github.com/scylladl/telecom-operations-intelligence/tree/main/app), [Operations portal](https://github.com/scylladl/operations-management-portal) |
+| A workflow with approvals and an audit trail | Roles and rules enforced in SQL Server, every change audited in the same transaction, tested per role | [Operations portal](https://github.com/scylladl/operations-management-portal) |
 | Manual Excel reporting that takes hours | Python and SQL automation, scheduled refresh | — |
 
 ### Featured projects
@@ -32,7 +33,13 @@ bridge, and a Power BI report in a light and a dark design. Every main KPI match
 
 ![Overview of the sales report](https://raw.githubusercontent.com/scylladl/sales-revenue-analytics/main/docs/screenshots/01-overview.png)
 
-**Next:** an operations portal (Streamlit).
+**[Operations Management Portal](https://github.com/scylladl/operations-management-portal)** (simulated company and data):
+the internal portal where the same fictional operator requests, approves, carries out and verifies improvement
+actions. Four roles with authorization in SQL Server stored procedures, an audit trail written in the same
+transaction as each change, optimistic concurrency, Argon2id passwords, and an export that feeds the existing
+report unchanged. 903 automated tests, including every role × transition × status.
+
+![Action page of the operations portal](https://raw.githubusercontent.com/scylladl/operations-management-portal/main/docs/screenshots/12-verified-history.png)
 
 ### Tools
 
